@@ -1,0 +1,114 @@
+{
+    "entity_type": [
+      {
+        "<product>": {
+          "desc": "产品"
+        }
+      },
+      {
+        "<enterprise>":{
+          "desc": "企业"
+        }
+      },
+      {
+        "<reward>":{
+          "desc": "荣誉"
+        }
+      },
+      {
+        "<date>":{
+          "desc": "日期"
+        }
+      },
+      {
+        "<address>":{
+          "desc": "地址"
+        }
+      },
+      {
+         "<revenue>": {
+          "desc": "收入"
+        }
+      }
+    ],
+    "event_type": [
+      {
+        "<production_increase>": {
+          "desc": "产量上涨",
+          "roles": ["<product>","<from>","<to>","<time>"]
+        }
+      }
+    ],
+    "relation_type": [
+      {
+        "<enterprise_2_product>": {
+          "desc": "生产产品",
+          "subject": {
+            "type": "<enterprise>",
+            "desc": "企业"
+          },
+          "object": {
+            "type": "<product>",
+            "desc": "产品"
+          }
+
+        }
+      },
+      {
+        "<earn_reward>": {
+          "desc": "获得荣誉",
+          "subject": {
+            "type": "<enterprise>",
+            "desc": "企业"
+          },
+          "object": {
+            "type": "<reward>",
+            "desc": "荣誉,奖项,荣誉称号"
+          }
+
+        }
+      },
+      {
+        "<start_date>": {
+          "desc": "成立时间",
+          "subject": {
+            "type": "<enterprise>",
+            "desc": "企业"
+          },
+          "object": {
+            "type": "<date>",
+            "desc": "日期"
+          }
+
+        }
+      },
+      {
+        "<enterprise_address>": {
+          "desc": "公司地址",
+          "subject": {
+            "type": "<enterprise>",
+            "desc": "企业"
+          },
+          "object": {
+            "type": "<address>",
+            "desc": "地址"
+          }
+
+        }
+      },
+      {
+        "<sales_revenue>": {
+          "desc": "销售收入",
+          "subject": {
+            "type": "<enterprise>",
+            "desc": "企业"
+          },
+          "object": {
+            "type": "<revenue>",
+            "desc": "收入"
+          }
+
+        }
+      }
+    ]
+}

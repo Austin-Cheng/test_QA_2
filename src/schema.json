@@ -1,0 +1,701 @@
+{
+	"res": {
+		"edge": [
+			{
+				"alias": "所属集团",
+				"color": "#3A4673",
+				"edge_id": 1,
+				"name": "group_is",
+				"relation": [
+					"enterprise",
+					"group_is",
+					"enterprise"
+				]
+			},
+			{
+				"alias": "质权方",
+				"color": "#D9534C",
+				"edge_id": 2,
+				"name": "pledgee",
+				"relation": [
+					"enterprise",
+					"pledgee",
+					"pledgee_event"
+				]
+			},
+			{
+				"alias": "质押方",
+				"color": "#D9534C",
+				"edge_id": 3,
+				"name": "staker",
+				"relation": [
+					"enterprise",
+					"staker",
+					"pledgee_event"
+				]
+			},
+			{
+				"alias": "领投方",
+				"color": "#3A4673",
+				"edge_id": 4,
+				"name": "lead_investor",
+				"relation": [
+					"enterprise",
+					"lead_investor",
+					"enterprise_financing_event"
+				]
+			},
+			{
+				"alias": "被投资方",
+				"color": "#3A4673",
+				"edge_id": 5,
+				"name": "investee",
+				"relation": [
+					"enterprise",
+					"investee",
+					"enterprise_financing_event"
+				]
+			},
+			{
+				"alias": "被收购方",
+				"color": "#3A4673",
+				"edge_id": 6,
+				"name": "acquired",
+				"relation": [
+					"enterprise",
+					"acquired",
+					"acquirer_event"
+				]
+			},
+			{
+				"alias": "减持方",
+				"color": "#3A4673",
+				"edge_id": 7,
+				"name": "reducing_holdings",
+				"relation": [
+					"enterprise",
+					"reducing_holdings",
+					"reducing_event"
+				]
+			},
+			{
+				"alias": "债权人",
+				"color": "#3A4673",
+				"edge_id": 8,
+				"name": "creditor",
+				"relation": [
+					"enterprise",
+					"creditor",
+					"Bankruptcy_event"
+				]
+			},
+			{
+				"alias": "变动后公司",
+				"color": "#3A4673",
+				"edge_id": 9,
+				"name": "ch_jobs_in",
+				"relation": [
+					"enterprise",
+					"ch_jobs_in",
+					"change_event"
+				]
+			},
+			{
+				"alias": "招标方",
+				"color": "#3A4673",
+				"edge_id": 10,
+				"name": "tenderee",
+				"relation": [
+					"enterprise",
+					"tenderee",
+					"tender_event"
+				]
+			},
+			{
+				"alias": "增持方",
+				"color": "#3A4673",
+				"edge_id": 11,
+				"name": "overweight_holdings",
+				"relation": [
+					"enterprise",
+					"overweight_holdings",
+					"overweight_event"
+				]
+			},
+			{
+				"alias": "质押方",
+				"color": "#D9534C",
+				"edge_id": 12,
+				"name": "staker",
+				"relation": [
+					"enterprise",
+					"staker",
+					"r_pledge_event"
+				]
+			},
+			{
+				"alias": "质权方",
+				"color": "#D9534C",
+				"edge_id": 13,
+				"name": "pledgee",
+				"relation": [
+					"enterprise",
+					"pledgee",
+					"r_pledge_event"
+				]
+			},
+			{
+				"alias": "中标公司",
+				"color": "#D9704C",
+				"edge_id": 14,
+				"name": "tenderer",
+				"relation": [
+					"enterprise",
+					"tenderer",
+					"tender_event"
+				]
+			},
+			{
+				"alias": "回购方",
+				"color": "#5889C4",
+				"edge_id": 15,
+				"name": "repurchase",
+				"relation": [
+					"enterprise",
+					"repurchase",
+					"Share_repurchase"
+				]
+			},
+			{
+				"alias": "破产企业",
+				"color": "#ECB763",
+				"edge_id": 16,
+				"name": "Bankruptcy",
+				"relation": [
+					"enterprise",
+					"Bankruptcy",
+					"Bankruptcy_event"
+				]
+			},
+			{
+				"alias": "收购方",
+				"color": "#C64F58",
+				"edge_id": 17,
+				"name": "acquirer",
+				"relation": [
+					"enterprise",
+					"acquirer",
+					"acquirer_event"
+				]
+			},
+			{
+				"alias": "质押物所属公司",
+				"color": "#D9534C",
+				"edge_id": 18,
+				"name": "pledge_belongs",
+				"relation": [
+					"enterprise",
+					"pledge_belongs",
+					"r_pledge_event"
+				]
+			},
+			{
+				"alias": "股票简称",
+				"color": "#D770A1",
+				"edge_id": 19,
+				"name": "Shares2",
+				"relation": [
+					"enterprise",
+					"Shares2",
+					"reducing_event"
+				]
+			},
+			{
+				"alias": "质押物所属公司",
+				"color": "#D9534C",
+				"edge_id": 20,
+				"name": "pledge_belongs",
+				"relation": [
+					"enterprise",
+					"pledge_belongs",
+					"pledgee_event"
+				]
+			},
+			{
+				"alias": "约谈机构",
+				"color": "#805A9C",
+				"edge_id": 21,
+				"name": "talk_enter",
+				"relation": [
+					"enterprise",
+					"talk_enter",
+					"talk_event"
+				]
+			},
+			{
+				"alias": "上市企业",
+				"color": "#68798E",
+				"edge_id": 22,
+				"name": "public",
+				"relation": [
+					"enterprise",
+					"public",
+					"public_event"
+				]
+			},
+			{
+				"alias": "投资方",
+				"color": "#D9534C",
+				"edge_id": 23,
+				"name": "investor",
+				"relation": [
+					"enterprise",
+					"investor",
+					"enterprise_financing_event"
+				]
+			},
+			{
+				"alias": "亏损企业",
+				"color": "#ECB763",
+				"edge_id": 24,
+				"name": "loss",
+				"relation": [
+					"enterprise",
+					"loss",
+					"loss_event"
+				]
+			},
+			{
+				"alias": "股票简称",
+				"color": "#D770A1",
+				"edge_id": 25,
+				"name": "Shares1",
+				"relation": [
+					"enterprise",
+					"Shares1",
+					"overweight_event"
+				]
+			},
+			{
+				"alias": "任职公司",
+				"color": "#7BBAA0",
+				"edge_id": 26,
+				"name": "jobs_in",
+				"relation": [
+					"enterprise",
+					"jobs_in",
+					"change_event"
+				]
+			},
+			{
+				"alias": "生产产品",
+				"color": "#5C539B",
+				"edge_id": 27,
+				"name": "product_of",
+				"relation": [
+					"enterprise",
+					"product_of",
+					"product"
+				]
+			},
+			{
+				"alias": "下层分类",
+				"color": "#BBD273",
+				"edge_id": 28,
+				"name": "subclass_is1",
+				"relation": [
+					"industry_chain",
+					"subclass_is1",
+					"industry_chain"
+				]
+			},
+			{
+				"alias": "包含产业环节",
+				"color": "#3A4673",
+				"edge_id": 29,
+				"name": "contain_sector_of",
+				"relation": [
+					"industry_chain",
+					"contain_sector_of",
+					"industry_sector"
+				]
+			},
+			{
+				"alias": "下游环节",
+				"color": "#3A4673",
+				"edge_id": 30,
+				"name": "next_sector_is",
+				"relation": [
+					"industry_sector",
+					"next_sector_is",
+					"industry_sector"
+				]
+			},
+			{
+				"alias": "包含产品",
+				"color": "#3A4673",
+				"edge_id": 31,
+				"name": "contain_product_of",
+				"relation": [
+					"industry_sector",
+					"contain_product_of",
+					"product"
+				]
+			},
+			{
+				"alias": "下层分类",
+				"color": "#BBD273",
+				"edge_id": 32,
+				"name": "subclass_is2",
+				"relation": [
+					"product",
+					"subclass_is2",
+					"product"
+				]
+			},
+			{
+				"alias": "上游产品",
+				"color": "#BBD273",
+				"edge_id": 33,
+				"name": "up_product_is",
+				"relation": [
+					"product",
+					"up_product_is",
+					"product"
+				]
+			},
+			{
+				"alias": "下游产品",
+				"color": "#BBD273",
+				"edge_id": 34,
+				"name": "down_product_is",
+				"relation": [
+					"product",
+					"down_product_is",
+					"product"
+				]
+			},
+			{
+				"alias": "下层分类",
+				"color": "#BBD273",
+				"edge_id": 35,
+				"name": "subclass_is",
+				"relation": [
+					"industry",
+					"subclass_is",
+					"industry"
+				]
+			},
+			{
+				"alias": "包含产品",
+				"color": "#3A4673",
+				"edge_id": 36,
+				"name": "contain_product_of1",
+				"relation": [
+					"industry",
+					"contain_product_of1",
+					"product"
+				]
+			},
+			{
+				"alias": "所属行业",
+				"color": "#C64F58",
+				"edge_id": 37,
+				"name": "industry_is3",
+				"relation": [
+					"enterprise",
+					"industry_is3",
+					"industry"
+				]
+			},
+			{
+				"alias": "分支机构",
+				"color": "#C64F58",
+				"edge_id": 38,
+				"name": "branch_is",
+				"relation": [
+					"enterprise",
+					"branch_is",
+					"enterprise"
+				]
+			},
+			{
+				"alias": "股东",
+				"color": "#C64F58",
+				"edge_id": 39,
+				"name": "shareholder_is",
+				"relation": [
+					"enterprise",
+					"shareholder_is",
+					"enterprise"
+				]
+			},
+			{
+				"alias": "股东",
+				"color": "#C64F58",
+				"edge_id": 40,
+				"name": "shareholder_is",
+				"relation": [
+					"enterprise",
+					"shareholder_is",
+					"person"
+				]
+			},
+			{
+				"alias": "法人代表",
+				"color": "#C64F58",
+				"edge_id": 41,
+				"name": "representative_is",
+				"relation": [
+					"enterprise",
+					"representative_is",
+					"person"
+				]
+			},
+			{
+				"alias": "位于",
+				"color": "#D8707A",
+				"edge_id": 42,
+				"name": "locate_in",
+				"relation": [
+					"enterprise",
+					"locate_in",
+					"area"
+				]
+			},
+			{
+				"alias": "位于",
+				"color": "#D8707A",
+				"edge_id": 43,
+				"name": "locate_in1",
+				"relation": [
+					"area",
+					"locate_in1",
+					"area"
+				]
+			},
+			{
+				"alias": "类型",
+				"color": "#50A06A",
+				"edge_id": 44,
+				"name": "type_is",
+				"relation": [
+					"enterprise",
+					"type_is",
+					"econ_kind"
+				]
+			},
+			{
+				"alias": "下层分类",
+				"color": "#BBD273",
+				"edge_id": 45,
+				"name": "subclass_is",
+				"relation": [
+					"econ_kind",
+					"subclass_is",
+					"econ_kind"
+				]
+			}
+		],
+		"entity": [
+			{
+				"alias": "企业融资",
+				"color": "#7BBAA0",
+				"entity_id": 1,
+				"icon": "",
+				"name": "enterprise_financing_event",
+				"x": 554.0375449691406,
+				"y": 632.9504376412549
+			},
+			{
+				"alias": "亏损",
+				"color": "#D9534C",
+				"entity_id": 2,
+				"icon": "",
+				"name": "loss_event",
+				"x": 534.0725614729372,
+				"y": 272.1913606058911
+			},
+			{
+				"alias": "股东增持",
+				"color": "#5F81D8",
+				"entity_id": 3,
+				"icon": "",
+				"name": "overweight_event",
+				"x": 436.45162712294166,
+				"y": 430.6593295698255
+			},
+			{
+				"alias": "高管变动",
+				"color": "#D770A1",
+				"entity_id": 4,
+				"icon": "",
+				"name": "change_event",
+				"x": 496.50276455396113,
+				"y": 304.851572774906
+			},
+			{
+				"alias": "企业收购",
+				"color": "#5889C4",
+				"entity_id": 5,
+				"icon": "",
+				"name": "acquirer_event",
+				"x": 466.4857407813986,
+				"y": 342.0927479914892
+			},
+			{
+				"alias": "解除质押",
+				"color": "#ECB763",
+				"entity_id": 6,
+				"icon": "",
+				"name": "r_pledge_event",
+				"x": 447.13610324600734,
+				"y": 385.49795576800204
+			},
+			{
+				"alias": "股东减持",
+				"color": "#D770A1",
+				"entity_id": 7,
+				"icon": "",
+				"name": "reducing_event",
+				"x": 449.66063868896697,
+				"y": 523.9168213385217
+			},
+			{
+				"alias": "质押",
+				"color": "#5F81D8",
+				"entity_id": 8,
+				"icon": "",
+				"name": "pledgee_event",
+				"x": 508.5200919426584,
+				"y": 604.1141379200709
+			},
+			{
+				"alias": "被约谈",
+				"color": "#D9704C",
+				"entity_id": 9,
+				"icon": "",
+				"name": "talk_event",
+				"x": 647.206937707186,
+				"y": 244.62649421544958
+			},
+			{
+				"alias": "上市",
+				"color": "#805A9C",
+				"entity_id": 10,
+				"icon": "",
+				"name": "public_event",
+				"x": 720.969815086321,
+				"y": 262.2371535856743
+			},
+			{
+				"alias": "股份回购",
+				"color": "#ECB763",
+				"entity_id": 11,
+				"icon": "",
+				"name": "Share_repurchase",
+				"x": 586.1138639110585,
+				"y": 250.9498217063583
+			},
+			{
+				"alias": "中标",
+				"color": "#F0E34F",
+				"entity_id": 12,
+				"icon": "",
+				"name": "tender_event",
+				"x": 437.5021485946979,
+				"y": 477.58155366822587
+			},
+			{
+				"alias": "破产",
+				"color": "#F0E34F",
+				"entity_id": 13,
+				"icon": "",
+				"name": "Bankruptcy_event",
+				"x": 473.3523885036386,
+				"y": 567.4963089495529
+			},
+			{
+				"alias": "企业",
+				"color": "#3A4673",
+				"entity_id": 14,
+				"icon": "",
+				"name": "enterprise",
+				"x": 623.5849971502716,
+				"y": 425.9910318822198
+			},
+			{
+				"alias": "企业类型",
+				"color": "#54639C",
+				"entity_id": 15,
+				"icon": "",
+				"name": "econ_kind",
+				"x": 607.5534171915293,
+				"y": 652.8275408132577
+			},
+			{
+				"alias": "自然人",
+				"color": "#D770A1",
+				"entity_id": 16,
+				"icon": "",
+				"name": "person",
+				"x": 672.743050515029,
+				"y": 649.1228078802056
+			},
+			{
+				"alias": "区域",
+				"color": "#2A908F",
+				"entity_id": 17,
+				"icon": "",
+				"name": "area",
+				"x": 810.7345449473005,
+				"y": 557.843291484499
+			},
+			{
+				"alias": "产业环节",
+				"color": "#3A4673",
+				"entity_id": 18,
+				"icon": "",
+				"name": "industry_sector",
+				"x": 1144.2125998577326,
+				"y": 404.4631155323127
+			},
+			{
+				"alias": "产业链",
+				"color": "#3A4673",
+				"entity_id": 19,
+				"icon": "",
+				"name": "industry_chain",
+				"x": 1751.8578015660069,
+				"y": 322.22838024195414
+			},
+			{
+				"alias": "行业",
+				"color": "#805A9C",
+				"entity_id": 20,
+				"icon": "",
+				"name": "industry",
+				"x": 740.0846594662944,
+				"y": 626.9839910941195
+			},
+			{
+				"alias": "产品",
+				"color": "#5889C4",
+				"entity_id": 21,
+				"icon": "",
+				"name": "product",
+				"x": 844.5098357275501,
+				"y": 456.9959954275668
+			},
+			{
+				"alias": "情报",
+				"color": "#C64F58",
+				"entity_id": 22,
+				"icon": "",
+				"name": "information",
+				"x": 866.5098357275501,
+				"y": 490.9959954275668
+			}
+		]
+	}
+}

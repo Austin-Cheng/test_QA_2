@@ -1,0 +1,82 @@
+{
+    "server":{
+        "host":"10.4.113.43:8444",
+        "kg_id": 4
+    },
+    "settings":{
+        "competitive_enterprise":{
+            "request_type": "restful_api",
+            "name":"竞品公司",
+            "desc":"具有相同或者近似产品的公司，即为竞品公司或者竞争对手",
+            "api_path":"c773feefeebc47c091a733f85256da9e",
+            "param_list": [
+                {"param": "enterprise", "type": "entity", "class": "enterprise"}
+            ]
+        },
+        "scope_of_enterprise":{
+            "request_type": "restful_api",
+            "name":"企业经营范围",
+            "desc":"根据企业名称查询该企业的经营范围",
+            "api_path":"1200e2742cfe46edabff292a2932b82c",
+            "param_list":[
+                {"param": "enterprise", "type": "string", "class": "enterprise" }
+            ]
+        },
+        "industry_chain":{
+            "request_type": "restful_api",
+            "name":"产业链",
+            "desc":"查看某个产业行业相关的产品、企业等产业链",
+            "api_path":"9258309a7ac64027a328b186debeb529",
+            "param_list":[
+                {"param": "industry", "type": "entity", "class": "industry"}
+            ]
+        },
+        "enterprise_details":{
+            "request_type": "restful_api",
+            "name":"企业详情信息",
+            "desc":"查看企业的情况，或者介绍企业或公司的具体信息",
+            "api_path":"988407ac1c2843ccaf043a900099886b",
+            "param_list":[
+                {"param": "enterprise", "type": "entity", "class": "enterprise"}
+            ]
+        },
+        "corporate_relations": {
+            "request_type": "restful_api",
+            "name":"企业关系",
+            "desc":"两个企业之间的关系，比如共同的产品，相同的产业链，同一个投资人等等",
+            "api_path":"1294706a52234adfa54f2b1483f2756c",
+            "param_list":[
+                {"param": "enterprise_one", "type": "entity", "class": "enterprise"},
+                {"param": "enterprise_two", "type": "entity", "class": "enterprise"}
+            ]
+        },
+        "enterprise_comparison_report": {
+            "request_type": "restful_api",
+            "name":"企业对比报告",
+            "desc":"比较两个企业之间的相同和差异，比如从公司概况、生产能力、产品、产业链、行业等不同维度进行对比",
+            "api_path":"ae675ca5d943423aaeb83d9e0b0ae507",
+            "param_list":[
+                {"param": "enterprise_one", "type": "entity", "class": "enterprise"},
+                {"param": "enterprise_two", "type": "entity", "class": "enterprise"}
+            ]
+        },
+        "enterprise_investment": {
+            "request_type": "restful_api",
+            "name":"企业投资查询",
+            "desc":"查询给定企业投资了哪些公司",
+            "api_path":"20e3ed3c15664d5eac444a7b0186bfb6",
+            "param_list":[{"param": "enterprise", "type": "entity", "class": "enterprise"}]
+        },
+        "corporate_product_public_opinion": {
+            "request_type": "restful_api",
+            "name":"企业产品舆情查询",
+            "desc":"查询企业产品的相关动态、新闻、最新情况等",
+            "api_path":"6b5b05b2490c4eef83ee5767a4f39df3",
+            "param_list":[
+                {"param": "enterprise", "type": "entity", "class": "enterprise"},
+                {"param": "product", "type": "entity", "class": "product"}
+            ]
+        }
+    }
+}
+

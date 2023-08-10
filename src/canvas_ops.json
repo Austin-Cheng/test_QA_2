@@ -1,0 +1,5 @@
+{
+    "<freedom_layout>":{"name":"自由布局","desc":"自由布局"},
+    "<tree_layout>":{"name":"树状布局", "desc":"树状布局"},
+    "<cascade_layout>":{"name":"层次布局", "desc":"层次布局"}
+}

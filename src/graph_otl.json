@@ -1,0 +1,1902 @@
+ {
+		"id": 3,
+		"create_user": "2ad91fcb-df08-4ae8-a5cf-bfc6f76d6fa1",
+		"create_time": "2023-06-02 11:18:30",
+		"update_user": "2ad91fcb-df08-4ae8-a5cf-bfc6f76d6fa1",
+		"update_time": "2023-06-02 11:18:30",
+		"ontology_name": "_1",
+		"ontology_des": "",
+		"otl_status": "available",
+		"entity": [
+			{
+				"colour": "#2a908f",
+				"name": "enterprise_relation",
+				"source_type": "automatic",
+				"properties": [
+					[
+						"id",
+						"string",
+						"id"
+					],
+					[
+						"name",
+						"string",
+						"name"
+					]
+				],
+				"properties_index": [
+					"id",
+					"name"
+				],
+				"file_type": "csv",
+				"task_id": "64",
+				"model": "",
+				"alias": "企业关系",
+				"entity_id": 1,
+				"icon": "graph-circulation",
+				"x": 864.1913799999998,
+				"y": 440.7428799999999,
+				"default_tag": "name"
+			},
+			{
+				"colour": "#3a4673",
+				"name": "chain",
+				"source_type": "manual",
+				"properties": [
+					[
+						"name",
+						"string",
+						"产业位置"
+					],
+					[
+						"id",
+						"string",
+						"id"
+					]
+				],
+				"properties_index": [
+					"name"
+				],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "产业位置",
+				"entity_id": 2,
+				"icon": "graph-sharing",
+				"x": 83.156555555556,
+				"y": 129.47800000000007,
+				"default_tag": "name"
+			},
+			{
+				"colour": "#d9704c",
+				"name": "sector",
+				"source_type": "manual",
+				"properties": [
+					[
+						"name",
+						"string",
+						"name"
+					],
+					[
+						"id",
+						"string",
+						"id"
+					]
+				],
+				"properties_index": [
+					"name"
+				],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "产业环节",
+				"entity_id": 3,
+				"icon": "graph-link",
+				"x": 339.69955555555555,
+				"y": 10.040000000000006,
+				"default_tag": "name"
+			},
+			{
+				"colour": "#5c539b",
+				"name": "location",
+				"source_type": "automatic",
+				"properties": [
+					[
+						"id",
+						"string",
+						"行政区编号"
+					],
+					[
+						"name",
+						"string",
+						"行政区名称"
+					],
+					[
+						"short_name",
+						"string",
+						"行政区简称"
+					],
+					[
+						"type",
+						"string",
+						"行政区类型"
+					],
+					[
+						"class",
+						"string",
+						"行政区级别"
+					],
+					[
+						"zip_code",
+						"string",
+						"行政区邮政编码"
+					]
+				],
+				"properties_index": [
+					"id",
+					"name",
+					"short_name"
+				],
+				"file_type": "csv",
+				"task_id": "6",
+				"model": "",
+				"alias": "行政区划",
+				"entity_id": 4,
+				"icon": "graph-map",
+				"x": 328.0252129928541,
+				"y": 524.9585666666667,
+				"default_tag": "name"
+			},
+			{
+				"colour": "#3a4673",
+				"name": "park",
+				"source_type": "automatic",
+				"properties": [
+					[
+						"id",
+						"string",
+						"园区代码"
+					],
+					[
+						"name",
+						"string",
+						"名称"
+					],
+					[
+						"name_en",
+						"string",
+						"英文名"
+					],
+					[
+						"other_name",
+						"string",
+						"别名"
+					],
+					[
+						"desc",
+						"string",
+						"简介"
+					],
+					[
+						"class",
+						"string",
+						"级别"
+					],
+					[
+						"area",
+						"string",
+						"面积"
+					],
+					[
+						"founding_date",
+						"string",
+						"成立年份"
+					]
+				],
+				"properties_index": [
+					"id",
+					"name",
+					"name_en",
+					"other_name"
+				],
+				"file_type": "csv",
+				"task_id": "6",
+				"model": "",
+				"alias": "园区",
+				"entity_id": 5,
+				"icon": "graph-factory",
+				"x": 337.24766666666665,
+				"y": 338.65144444444445,
+				"default_tag": "name"
+			},
+			{
+				"colour": "#d8707a",
+				"name": "factor",
+				"source_type": "automatic",
+				"properties": [
+					[
+						"id",
+						"string",
+						"代码"
+					],
+					[
+						"name",
+						"string",
+						"要素名称"
+					],
+					[
+						"type",
+						"string",
+						"类别"
+					],
+					[
+						"type_desc",
+						"string",
+						"类型"
+					],
+					[
+						"label",
+						"string",
+						"标签"
+					]
+				],
+				"properties_index": [
+					"id",
+					"name"
+				],
+				"file_type": "csv",
+				"task_id": "6",
+				"model": "",
+				"alias": "产业要素",
+				"entity_id": 6,
+				"icon": "graph-agriculture",
+				"x": 173.15243333333336,
+				"y": 416.5049222222219,
+				"default_tag": "name"
+			},
+			{
+				"colour": "#7bbaa0",
+				"name": "reward",
+				"source_type": "automatic",
+				"properties": [
+					[
+						"id",
+						"string",
+						"代码"
+					],
+					[
+						"name",
+						"string",
+						"荣誉名称"
+					],
+					[
+						"type",
+						"string",
+						"榜单类型"
+					],
+					[
+						"domain",
+						"string",
+						"榜单领域"
+					]
+				],
+				"properties_index": [
+					"id",
+					"name"
+				],
+				"file_type": "csv",
+				"task_id": "6",
+				"model": "",
+				"alias": "荣誉",
+				"entity_id": 7,
+				"icon": "graph-brand",
+				"x": 513.8543859523229,
+				"y": 528.795493083338,
+				"default_tag": "name"
+			},
+			{
+				"colour": "#d9534c",
+				"name": "group",
+				"source_type": "automatic",
+				"properties": [
+					[
+						"id",
+						"string",
+						"集团id"
+					],
+					[
+						"group_name",
+						"string",
+						"集团名称"
+					],
+					[
+						"group_abbreviation",
+						"string",
+						"名称缩写"
+					]
+				],
+				"properties_index": [
+					"id",
+					"group_name"
+				],
+				"file_type": "csv",
+				"task_id": "5",
+				"model": "",
+				"alias": "集团公司",
+				"entity_id": 8,
+				"icon": "graph-cycle",
+				"x": 892.7161111111112,
+				"y": 312.71588888888897,
+				"default_tag": "group_name"
+			},
+			{
+				"colour": "#50a06a",
+				"name": "industry",
+				"source_type": "automatic",
+				"properties": [
+					[
+						"id",
+						"string",
+						"产业代码"
+					],
+					[
+						"name",
+						"string",
+						"产业名称"
+					],
+					[
+						"name_en",
+						"string",
+						"英文名"
+					],
+					[
+						"desc",
+						"string",
+						"简介"
+					]
+				],
+				"properties_index": [
+					"id",
+					"name",
+					"name_en"
+				],
+				"file_type": "csv",
+				"task_id": "4",
+				"model": "",
+				"alias": "产业行业",
+				"entity_id": 9,
+				"icon": "graph-vip",
+				"x": 212,
+				"y": 240.25,
+				"default_tag": "name"
+			},
+			{
+				"colour": "#f5a623",
+				"name": "product",
+				"source_type": "automatic",
+				"properties": [
+					[
+						"id",
+						"string",
+						"产品代码"
+					],
+					[
+						"name",
+						"string",
+						"产品名称"
+					],
+					[
+						"name_en",
+						"string",
+						"英文名"
+					],
+					[
+						"desc",
+						"string",
+						"简介"
+					]
+				],
+				"properties_index": [
+					"id",
+					"name",
+					"name_en"
+				],
+				"file_type": "csv",
+				"task_id": "4",
+				"model": "",
+				"alias": "产品",
+				"entity_id": 10,
+				"icon": "graph-jewelry",
+				"x": 491.1111111111111,
+				"y": 121.13888888888889,
+				"default_tag": "name"
+			},
+			{
+				"colour": "#d770a1",
+				"name": "activity",
+				"source_type": "automatic",
+				"properties": [
+					[
+						"id",
+						"string",
+						"事件代码"
+					],
+					[
+						"name",
+						"string",
+						"事件名称"
+					],
+					[
+						"name_en",
+						"string",
+						"英文名"
+					],
+					[
+						"class",
+						"string",
+						"事件层级"
+					],
+					[
+						"pos",
+						"string",
+						"舆情情感"
+					]
+				],
+				"properties_index": [
+					"id",
+					"name",
+					"name_en"
+				],
+				"file_type": "csv",
+				"task_id": "4",
+				"model": "",
+				"alias": "事件",
+				"entity_id": 11,
+				"icon": "graph-lightning",
+				"x": 746.5022222222224,
+				"y": 10.434444444444452,
+				"default_tag": "name"
+			},
+			{
+				"colour": "#50a06a",
+				"name": "concept",
+				"source_type": "automatic",
+				"properties": [
+					[
+						"id",
+						"string",
+						"代码"
+					],
+					[
+						"name",
+						"string",
+						"中文名"
+					],
+					[
+						"name_en",
+						"string",
+						"英文名"
+					]
+				],
+				"properties_index": [
+					"id",
+					"name",
+					"name_en"
+				],
+				"file_type": "csv",
+				"task_id": "4",
+				"model": "",
+				"alias": "概念",
+				"entity_id": 12,
+				"icon": "graph-tip",
+				"x": 1019.5299999999997,
+				"y": 132.89666666666665,
+				"default_tag": "name"
+			},
+			{
+				"colour": "#8b572a",
+				"name": "article",
+				"source_type": "automatic",
+				"properties": [
+					[
+						"id",
+						"string",
+						"代码"
+					],
+					[
+						"url",
+						"string",
+						"原文地址"
+					],
+					[
+						"name",
+						"string",
+						"标题"
+					],
+					[
+						"summary",
+						"string",
+						"摘要"
+					],
+					[
+						"pos",
+						"string",
+						"舆情情感"
+					],
+					[
+						"pos_weight",
+						"string",
+						"情感权重"
+					]
+				],
+				"properties_index": [
+					"id",
+					"name"
+				],
+				"file_type": "csv",
+				"task_id": "4",
+				"model": "",
+				"alias": "新闻",
+				"entity_id": 13,
+				"icon": "graph-document",
+				"x": 855.5555555555555,
+				"y": 166.58333333333334,
+				"default_tag": "name"
+			},
+			{
+				"colour": "#d0021b",
+				"name": "person",
+				"source_type": "automatic",
+				"properties": [
+					[
+						"name",
+						"string",
+						"姓名"
+					],
+					[
+						"gender",
+						"string",
+						"性别"
+					],
+					[
+						"id",
+						"string",
+						"代码"
+					],
+					[
+						"education",
+						"string",
+						"教育程度"
+					]
+				],
+				"properties_index": [
+					"name",
+					"id"
+				],
+				"file_type": "csv",
+				"task_id": "2",
+				"model": "",
+				"alias": "自然人",
+				"entity_id": 14,
+				"icon": "graph-user",
+				"x": 722.921111111111,
+				"y": 537.43,
+				"default_tag": "name"
+			},
+			{
+				"colour": "#4a90e2",
+				"name": "enterprise",
+				"source_type": "automatic",
+				"properties": [
+					[
+						"scope",
+						"string",
+						"经营范围"
+					],
+					[
+						"pos",
+						"string",
+						"舆情情感"
+					],
+					[
+						"address",
+						"string",
+						"地址"
+					],
+					[
+						"before_content",
+						"string",
+						"曾用名"
+					],
+					[
+						"name",
+						"string",
+						"企业名称"
+					],
+					[
+						"telephone",
+						"string",
+						"电话"
+					],
+					[
+						"econ_code",
+						"string",
+						"类型"
+					],
+					[
+						"regist_new",
+						"string",
+						"收入"
+					],
+					[
+						"new_status",
+						"string",
+						"状态"
+					],
+					[
+						"stock_code",
+						"string",
+						"股票代码"
+					],
+					[
+						"id",
+						"string",
+						"公司代码"
+					],
+					[
+						"desc",
+						"string",
+						"公司简介"
+					],
+					[
+						"email",
+						"string",
+						"邮件"
+					],
+					[
+						"nameen",
+						"string",
+						"英文名"
+					],
+					[
+						"credit_no",
+						"string",
+						"统一社会信用代码"
+					],
+					[
+						"shiyebx_num",
+						"string",
+						"参保人数"
+					],
+					[
+						"start_date",
+						"string",
+						"成立日期"
+					],
+					[
+						"company_type",
+						"string",
+						"公司类型"
+					],
+					[
+						"stock_name",
+						"string",
+						"股票简称"
+					]
+				],
+				"properties_index": [
+					"before_content",
+					"name",
+					"id",
+					"nameen",
+					"stock_name"
+				],
+				"file_type": "csv",
+				"task_id": "1",
+				"model": "",
+				"alias": "企业",
+				"entity_id": 15,
+				"icon": "graph-company",
+				"x": 551.2450311111095,
+				"y": 322.8113972222223,
+				"default_tag": "name"
+			}
+		],
+		"edge": [
+			{
+				"colour": "#9b9b9b",
+				"name": "has",
+				"source_type": "manual",
+				"properties": [
+					[
+						"choice",
+						"string",
+						"choice"
+					],
+					[
+						"info",
+						"string",
+						"info"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "包含",
+				"edge_id": 1,
+				"relations": [
+					"enterprise_relation",
+					"has",
+					"product"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "has",
+				"source_type": "manual",
+				"properties": [
+					[
+						"choice",
+						"string",
+						"choice"
+					],
+					[
+						"info",
+						"string",
+						"info"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "包含",
+				"edge_id": 2,
+				"relations": [
+					"enterprise_relation",
+					"has",
+					"person"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "has",
+				"source_type": "manual",
+				"properties": [
+					[
+						"choice",
+						"string",
+						"choice"
+					],
+					[
+						"info",
+						"string",
+						"info"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "包含",
+				"edge_id": 3,
+				"relations": [
+					"enterprise_relation",
+					"has",
+					"enterprise"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "has_relation",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "拥有",
+				"edge_id": 4,
+				"relations": [
+					"enterprise",
+					"has_relation",
+					"enterprise_relation"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "provider",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "供应商",
+				"edge_id": 5,
+				"relations": [
+					"enterprise",
+					"provider",
+					"enterprise"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "investing",
+				"source_type": "manual",
+				"properties": [
+					[
+						"stock_percentage",
+						"string",
+						"stock_percentage"
+					],
+					[
+						"shareholder_type",
+						"string",
+						"shareholder_type"
+					],
+					[
+						"stock_percentage_100",
+						"string",
+						"stock_percentage_100"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "投资",
+				"edge_id": 6,
+				"relations": [
+					"person",
+					"investing",
+					"enterprise"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "investing",
+				"source_type": "manual",
+				"properties": [
+					[
+						"stock_percentage",
+						"string",
+						"stock_percentage"
+					],
+					[
+						"shareholder_type",
+						"string",
+						"shareholder_type"
+					],
+					[
+						"stock_percentage_100",
+						"string",
+						"stock_percentage_100"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "投资",
+				"edge_id": 7,
+				"relations": [
+					"enterprise",
+					"investing",
+					"enterprise"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "chain_2_product",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "包含产品",
+				"edge_id": 8,
+				"relations": [
+					"chain",
+					"chain_2_product",
+					"product"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "chain_2_sector",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "包含产业环节",
+				"edge_id": 9,
+				"relations": [
+					"chain",
+					"chain_2_sector",
+					"sector"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "industry_2_chain",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "位于",
+				"edge_id": 10,
+				"relations": [
+					"industry",
+					"industry_2_chain",
+					"chain"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "sector_2_product",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "包含产品",
+				"edge_id": 11,
+				"relations": [
+					"sector",
+					"sector_2_product",
+					"product"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "industry_2_sector",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "包含产业环节",
+				"edge_id": 12,
+				"relations": [
+					"industry",
+					"industry_2_sector",
+					"sector"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "2_factor",
+				"source_type": "manual",
+				"properties": [
+					[
+						"type",
+						"string",
+						"type"
+					],
+					[
+						"type_desc",
+						"string",
+						"type_desc"
+					],
+					[
+						"label",
+						"string",
+						"label"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "产业要素",
+				"edge_id": 13,
+				"relations": [
+					"industry",
+					"2_factor",
+					"factor"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "2_factor",
+				"source_type": "manual",
+				"properties": [
+					[
+						"type",
+						"string",
+						"type"
+					],
+					[
+						"type_desc",
+						"string",
+						"type_desc"
+					],
+					[
+						"label",
+						"string",
+						"label"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "产业要素",
+				"edge_id": 14,
+				"relations": [
+					"park",
+					"2_factor",
+					"factor"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "upclass_location",
+				"source_type": "manual",
+				"properties": [
+					[
+						"type",
+						"string",
+						"type"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "上级行政区划",
+				"edge_id": 15,
+				"relations": [
+					"location",
+					"upclass_location",
+					"location"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "2_factor",
+				"source_type": "manual",
+				"properties": [
+					[
+						"type",
+						"string",
+						"type"
+					],
+					[
+						"type_desc",
+						"string",
+						"type_desc"
+					],
+					[
+						"label",
+						"string",
+						"label"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "产业要素",
+				"edge_id": 16,
+				"relations": [
+					"location",
+					"2_factor",
+					"factor"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "park_2_industry",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "重点产业",
+				"edge_id": 17,
+				"relations": [
+					"park",
+					"park_2_industry",
+					"industry"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "earn_reward",
+				"source_type": "manual",
+				"properties": [
+					[
+						"ranked_year",
+						"string",
+						"ranked_year"
+					],
+					[
+						"ranking",
+						"string",
+						"ranking"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "获得荣誉",
+				"edge_id": 18,
+				"relations": [
+					"park",
+					"earn_reward",
+					"reward"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "park_2_location",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "园区行政区划",
+				"edge_id": 19,
+				"relations": [
+					"park",
+					"park_2_location",
+					"location"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "earn_reward",
+				"source_type": "manual",
+				"properties": [
+					[
+						"ranked_year",
+						"string",
+						"ranked_year"
+					],
+					[
+						"ranking",
+						"string",
+						"ranking"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "获得荣誉",
+				"edge_id": 20,
+				"relations": [
+					"person",
+					"earn_reward",
+					"reward"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "earn_reward",
+				"source_type": "manual",
+				"properties": [
+					[
+						"ranked_year",
+						"string",
+						"ranked_year"
+					],
+					[
+						"ranking",
+						"string",
+						"ranking"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "获得荣誉",
+				"edge_id": 21,
+				"relations": [
+					"enterprise",
+					"earn_reward",
+					"reward"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "enterprise_2_park",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "所属园区",
+				"edge_id": 22,
+				"relations": [
+					"enterprise",
+					"enterprise_2_park",
+					"park"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "enterprise_2_location",
+				"source_type": "manual",
+				"properties": [
+					[
+						"type",
+						"string",
+						"type"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "企业行政区划",
+				"edge_id": 23,
+				"relations": [
+					"enterprise",
+					"enterprise_2_location",
+					"location"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "cooperate",
+				"source_type": "manual",
+				"properties": [
+					[
+						"related_company",
+						"string",
+						"related_company"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "合作",
+				"edge_id": 24,
+				"relations": [
+					"person",
+					"cooperate",
+					"person"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "supply",
+				"source_type": "manual",
+				"properties": [
+					[
+						"transaction_amount",
+						"string",
+						"transaction_amount"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "供应",
+				"edge_id": 25,
+				"relations": [
+					"enterprise",
+					"supply",
+					"enterprise"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "compete",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "竞争企业",
+				"edge_id": 26,
+				"relations": [
+					"enterprise",
+					"compete",
+					"enterprise"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "activity_2_article",
+				"source_type": "manual",
+				"properties": [
+					[
+						"pos",
+						"string",
+						"pos"
+					],
+					[
+						"pos_weight",
+						"string",
+						"pos_weight"
+					],
+					[
+						"type",
+						"string",
+						"type"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "事件新闻",
+				"edge_id": 27,
+				"relations": [
+					"activity",
+					"activity_2_article",
+					"article"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "enterprise_2_article",
+				"source_type": "manual",
+				"properties": [
+					[
+						"pos",
+						"string",
+						"pos"
+					],
+					[
+						"pos_weight",
+						"string",
+						"pos_weight"
+					],
+					[
+						"type",
+						"string",
+						"type"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "企业新闻",
+				"edge_id": 28,
+				"relations": [
+					"enterprise",
+					"enterprise_2_article",
+					"article"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "person_2_article",
+				"source_type": "manual",
+				"properties": [
+					[
+						"pos",
+						"string",
+						"pos"
+					],
+					[
+						"pos_weight",
+						"string",
+						"pos_weight"
+					],
+					[
+						"type",
+						"string",
+						"type"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "人物新闻",
+				"edge_id": 29,
+				"relations": [
+					"person",
+					"person_2_article",
+					"article"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "industry_2_article",
+				"source_type": "manual",
+				"properties": [
+					[
+						"pos",
+						"string",
+						"pos"
+					],
+					[
+						"pos_weight",
+						"string",
+						"pos_weight"
+					],
+					[
+						"type",
+						"string",
+						"type"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "行业新闻",
+				"edge_id": 30,
+				"relations": [
+					"industry",
+					"industry_2_article",
+					"article"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "product_2_article",
+				"source_type": "manual",
+				"properties": [
+					[
+						"pos",
+						"string",
+						"pos"
+					],
+					[
+						"pos_weight",
+						"string",
+						"pos_weight"
+					],
+					[
+						"type",
+						"string",
+						"type"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "产品新闻",
+				"edge_id": 31,
+				"relations": [
+					"product",
+					"product_2_article",
+					"article"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "concept_2_article",
+				"source_type": "manual",
+				"properties": [
+					[
+						"type",
+						"string",
+						"type"
+					],
+					[
+						"pos",
+						"string",
+						"pos"
+					],
+					[
+						"pos_weight",
+						"string",
+						"pos_weight"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "概念新闻",
+				"edge_id": 32,
+				"relations": [
+					"concept",
+					"concept_2_article",
+					"article"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "enterprise_2_activity",
+				"source_type": "manual",
+				"properties": [
+					[
+						"type",
+						"string",
+						"type"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "企业事件",
+				"edge_id": 33,
+				"relations": [
+					"enterprise",
+					"enterprise_2_activity",
+					"activity"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "product_2_activity",
+				"source_type": "manual",
+				"properties": [
+					[
+						"type",
+						"string",
+						"type"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "产品事件",
+				"edge_id": 34,
+				"relations": [
+					"product",
+					"product_2_activity",
+					"activity"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "representative",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "法定代表人",
+				"edge_id": 35,
+				"relations": [
+					"enterprise",
+					"representative",
+					"person"
+				]
+			},
+			{
+				"colour": "#50a06a",
+				"name": "upclass_industry",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "上级产业",
+				"edge_id": 36,
+				"relations": [
+					"industry",
+					"upclass_industry",
+					"industry"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "upclass_activity",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "上级事件",
+				"edge_id": 37,
+				"relations": [
+					"activity",
+					"upclass_activity",
+					"activity"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "resulted_activity",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "导致事件",
+				"edge_id": 38,
+				"relations": [
+					"activity",
+					"resulted_activity",
+					"activity"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "branch",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "分公司",
+				"edge_id": 39,
+				"relations": [
+					"enterprise",
+					"branch",
+					"enterprise"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "belong_group",
+				"source_type": "manual",
+				"properties": [
+					[
+						"stock_percent",
+						"string",
+						"stock_percent"
+					],
+					[
+						"type",
+						"string",
+						"type"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "所属集团",
+				"edge_id": 40,
+				"relations": [
+					"enterprise",
+					"belong_group",
+					"group"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "executive",
+				"source_type": "manual",
+				"properties": [
+					[
+						"title",
+						"string",
+						"title"
+					],
+					[
+						"start_date",
+						"string",
+						"start_date"
+					],
+					[
+						"end_date",
+						"string",
+						"end_date"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "高管",
+				"edge_id": 41,
+				"relations": [
+					"enterprise",
+					"executive",
+					"person"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "enterprise_2_industry",
+				"source_type": "manual",
+				"properties": [],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "所属行业",
+				"edge_id": 42,
+				"relations": [
+					"enterprise",
+					"enterprise_2_industry",
+					"industry"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "downclass_product",
+				"source_type": "manual",
+				"properties": [
+					[
+						"type",
+						"string",
+						"type"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "下游产品",
+				"edge_id": 43,
+				"relations": [
+					"product",
+					"downclass_product",
+					"product"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "upclass_product",
+				"source_type": "manual",
+				"properties": [
+					[
+						"type",
+						"string",
+						"type"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "上游产品",
+				"edge_id": 44,
+				"relations": [
+					"product",
+					"upclass_product",
+					"product"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "industry_2_product",
+				"source_type": "manual",
+				"properties": [
+					[
+						"sector",
+						"string",
+						"sector"
+					],
+					[
+						"position",
+						"string",
+						"position"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "包含产品",
+				"edge_id": 45,
+				"relations": [
+					"industry",
+					"industry_2_product",
+					"product"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "enterprise_2_product",
+				"source_type": "manual",
+				"properties": [
+					[
+						"pos",
+						"string",
+						"pos"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "生产产品",
+				"edge_id": 46,
+				"relations": [
+					"enterprise",
+					"enterprise_2_product",
+					"product"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "investor_is",
+				"source_type": "manual",
+				"properties": [
+					[
+						"stock_percentage",
+						"string",
+						"stock_percentage"
+					],
+					[
+						"shareholder_type",
+						"string",
+						"shareholder_type"
+					],
+					[
+						"stock_percentage_100",
+						"string",
+						"stock_percentage_100"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "股东",
+				"edge_id": 47,
+				"relations": [
+					"enterprise",
+					"investor_is",
+					"person"
+				]
+			},
+			{
+				"colour": "#9b9b9b",
+				"name": "investor_is",
+				"source_type": "manual",
+				"properties": [
+					[
+						"stock_percentage",
+						"string",
+						"stock_percentage"
+					],
+					[
+						"shareholder_type",
+						"string",
+						"shareholder_type"
+					],
+					[
+						"stock_percentage_100",
+						"string",
+						"stock_percentage_100"
+					]
+				],
+				"properties_index": [],
+				"file_type": "",
+				"task_id": "",
+				"model": "",
+				"alias": "股东",
+				"edge_id": 48,
+				"relations": [
+					"enterprise",
+					"investor_is",
+					"enterprise"
+				]
+			}
+		],
+		"used_task": [
+			2,
+			1,
+			4,
+			5,
+			6,
+			64
+		],
+		"all_task": [],
+		"identify_id": null,
+		"knw_id": null,
+		"domain": null,
+		"otl_temp": null
+	}

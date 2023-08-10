@@ -1,0 +1,57 @@
+{
+    "interrogative_function": {
+        "name":"功能介绍",
+        "desc":"询问ChatKG的功能，比如：你可以帮我做些什么事情，可以完成什么任务等",
+        "param_list":[]
+    },
+    "competitive_enterprise":{
+        "name":"竞品公司",
+        "desc":"两家企业生产相同的产品或者属于近似的行业",
+        "param_list":[{"enterprise":{"desc":"公司","slot_value":""}}]
+    },
+    "scope_of_enterprise": {
+        "name":"企业经营范围",
+        "desc":"根据企业名称查询该企业的经营范围",
+        "param_list":[{"enterprise":{"desc":"公司","slot_value":""}}]
+    },
+    "industry_chain": {
+        "name": "产业链",
+        "desc":"查看某个产业行业相关的产品、企业等产业链",
+        "param_list":[{"industry":{"desc":"产业行业","slot_value":""}}]
+    },
+    "enterprise_details": {
+        "name": "企业详情信息",
+        "desc":"查看企业的情况，或者介绍企业或公司的具体信息",
+        "param_list":[{"enterprise":{"desc":"公司","slot_value":""}}]
+    },
+    "corporate_relations": {
+        "name": "企业关系",
+        "desc":"两个企业之间的关系，某些特征的差异或者相同点，比如近似的经营范围、共同的产品，相同的产业链，同一个投资人等等",
+        "param_list":[{"enterprise_one":{"desc":"公司","slot_value":""}},
+        {"enterprise_two":{"desc":"公司","slot_value":""}}]
+    },
+    "enterprise_comparison_report": {
+        "name": "企业对比报告",
+        "desc":"比较两个企业之间的相同和差异，比如从公司概况、生产能力、产品、产业链、行业等不同维度进行对比",
+        "param_list":[{"enterprise_one":{"desc":"公司","slot_value":""}},
+        {"enterprise_two":{"desc":"公司","slot_value":""}}]
+    },
+    "enterprise_investment": {
+        "name": "企业投资查询",
+        "desc":"查询给定企业投资了哪些公司",
+        "param_list":[{"enterprise":{"desc":"公司","slot_value":""}}]
+    },
+    "corporate_product_public_opinion": {
+        "name": "企业产品舆情查询",
+        "desc":"查询企业产品的相关动态、新闻、最新情况等",
+        "param_list":[
+            {"enterprise":{"desc":"公司","slot_value":""}},
+            {"product":{"desc":"产品","slot_value":""}}
+        ]
+    },
+    "ambiguity": {
+        "name": "不明确",
+        "desc":"问题不清楚，不明确意图，和图谱无关的问题",
+        "param_list":[]
+    }
+}
